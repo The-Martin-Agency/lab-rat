@@ -1,0 +1,35 @@
+{
+  "name": "lab-rat",
+  "version": "0.1.0",
+  "author": "Martin Lab <themartinlab@gmail.com>",
+  "description": "if someone walks into the lab, rat them out!",
+  "contributors": [ 
+  	{
+      "name": "David Vogeleer",
+      "email": "david.vogeleer@martinagency.com"
+    },
+    {
+      "name": "Kevin Power",
+      "email": "kevin.power@martinagency.com"
+    },
+    {
+      "name": "Jeff MacDonald",
+      "email": "jeff.macdonald@martinagency.com"
+    }
+  ],
+  "scripts": {
+    "start": "node lab-rat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Martin-Agency/lab-rat"
+  },
+  "dependencies" : {
+    "ftp"   :  "0.2.x",
+    "shelljs" :  "0.0.9"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.8.16"
+  }
+}
